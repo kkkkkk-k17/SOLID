@@ -1,45 +1,9 @@
 // Interface segregation principle
-//
-// class Animal {
-//   constructor(name) {
-//     this.name = name
-//   }
-//
-//   walk() {
-//     console.log(`${this.name} умеет ходить`)
-//   }
-//
-//   swim() {
-//     console.log(`${this.name} умеет плавать`)
-//   }
-//
-//   fly() {
-//     console.log(`${this.name} умеет летать`)
-//   }
-// }
-//
-// class Dog extends Animal {
-//   fly() {
-//     return null
-//   }
-// }
-//
-// class Eagle extends Animal {
-//   swim() {
-//     return null
-//   }
-// }
-//
-// class Whale extends Animal {
-//   fly() {
-//     return null
-//   }
-//
-//   walk() {
-//     return null
-//   }
-// }
-//
+// Principiul de Separare a Interfețelor (Interface Segregation Principle - ISP):
+
+// Clasele nu ar trebui să fie forțate să implementeze metode pe care nu le folosesc.
+// Acest principiu sugerează că ar trebui să creăm interfețe mici și specializate,
+// astfel încât o clasă să poată implementa doar interfețele de care are nevoie.
 
 class Animal {
     constructor(name) {
@@ -83,3 +47,44 @@ eagle.walk()
 
 const whale = new Whale('Bob')
 whale.swim()
+// class Animal {
+//   constructor(name) {
+//     this.name = name
+//   }
+//
+//   walk() {
+//     console.log(`${this.name} умеет ходить`)
+//   }
+//
+//   swim() {
+//     console.log(`${this.name} умеет плавать`)
+//   }
+//
+//   fly() {
+//     console.log(`${this.name} умеет летать`)
+//   }
+// }
+//
+// class Dog extends Animal {
+//   fly() {
+//     return null
+//   }
+// }
+//
+// class Eagle extends Animal {
+//   swim() {
+//     return null
+//   }
+// }
+//
+// class Whale extends Animal {
+//   fly() {
+//     return null
+//   }
+//
+//   walk() {
+//     return null
+//   }
+// }
+//
+

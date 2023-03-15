@@ -1,6 +1,8 @@
-// Single Responsibility Principle
-// Principiul de Responsabilitate Unică
 
+// Principiul de Responsabilitate Unică (Single Responsibility Principle - SRP):
+// O clasă trebuie să aibă o singură responsabilitate.
+// Aceasta înseamnă că o clasă ar trebui să fie responsabilă
+// doar pentru o singură parte a funcționalității aplicației și că nu ar trebui să aibă prea multe responsabilități.
 class News {
     constructor(title, text) {
         this.title = title

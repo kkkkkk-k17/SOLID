@@ -1,6 +1,12 @@
 // Open Close Principle
+//Principiul Deschis/Închis (Open/Closed Principle - OCP):
+// Clasele trebuie să fie deschise pentru extensibilitate,
+// dar închise pentru modificare.
+// Acest principiu sugerează că ar trebui
+// să putem extinde comportamentul unei clase fără a schimba codul existent.
 
-class Shape {
+
+    class Shape {
     area() {
         throw new Error('Area method should be implemented')
     }

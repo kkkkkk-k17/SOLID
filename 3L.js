@@ -1,4 +1,7 @@
 // Liskov substitution principle
+// Principiul de Substituire Liskov (Liskov Substitution Principle - LSP):
+// Obiectele de tipul unei clase de bază ar trebui să poată fi înlocuite
+// cu obiecte de tipul unei clase derivate, fără a afecta corectitudinea programului.
 
 class Person {
 

@@ -1,4 +1,10 @@
 // Dependency inversion principle
+// Principiul de Înlocuire a Dependințelor (Dependency Inversion Principle - DIP):
+
+// Modulele de nivel superior nu ar trebui să depindă de modulele de nivel inferior,
+// ci ar trebui să depindă de abstracțiuni.
+// Acest principiu sugerează că o clasă nu ar trebui să se bazeze direct
+// pe o altă clasă, ci ar trebui să se bazeze pe o interfață sau o clasă abstractă.
 
 class Fetch {
     request(url) {
